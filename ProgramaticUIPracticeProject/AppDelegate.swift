@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let VC = MainViewController()
+        //let DVC = DetailViewControlle()
+        let nav = UINavigationController.init(rootViewController: VC)
+        nav.title = "Text Entry"
+        //DVC.title = "Shown Entry"
+        window = UIWindow.init(frame: UIScreen.main.bounds)
+        window?.rootViewController = nav
+        window?.makeKeyAndVisible()
         return true
     }
 

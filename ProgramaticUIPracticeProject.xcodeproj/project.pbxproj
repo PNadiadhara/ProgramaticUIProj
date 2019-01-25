@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		BF3807EC21FA6CBD00615367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3807EB21FA6CBD00615367 /* AppDelegate.swift */; };
-		BF3807EE21FA6CBD00615367 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3807ED21FA6CBD00615367 /* ViewController.swift */; };
+		BF3807EE21FA6CBD00615367 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3807ED21FA6CBD00615367 /* MainViewController.swift */; };
 		BF3807F321FA6CBE00615367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3807F221FA6CBE00615367 /* Assets.xcassets */; };
 		BF3807F621FA6CBE00615367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3807F421FA6CBE00615367 /* LaunchScreen.storyboard */; };
+		BF3807FE21FA706D00615367 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3807FD21FA706D00615367 /* MainView.swift */; };
+		BF38080021FA707700615367 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3807FF21FA707700615367 /* DetailView.swift */; };
+		BF38080221FA708700615367 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF38080121FA708700615367 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF3807E821FA6CBD00615367 /* ProgramaticUIPracticeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgramaticUIPracticeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3807EB21FA6CBD00615367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF3807ED21FA6CBD00615367 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF3807ED21FA6CBD00615367 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BF3807F221FA6CBE00615367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF3807F521FA6CBE00615367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF3807F721FA6CBE00615367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3807FD21FA706D00615367 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BF3807FF21FA707700615367 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BF38080121FA708700615367 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				BF3807EB21FA6CBD00615367 /* AppDelegate.swift */,
-				BF3807ED21FA6CBD00615367 /* ViewController.swift */,
+				BF3807ED21FA6CBD00615367 /* MainViewController.swift */,
+				BF3807FD21FA706D00615367 /* MainView.swift */,
+				BF3807FF21FA707700615367 /* DetailView.swift */,
+				BF38080121FA708700615367 /* DetailViewController.swift */,
 				BF3807F221FA6CBE00615367 /* Assets.xcassets */,
 				BF3807F421FA6CBE00615367 /* LaunchScreen.storyboard */,
 				BF3807F721FA6CBE00615367 /* Info.plist */,
@@ -131,7 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3807EE21FA6CBD00615367 /* ViewController.swift in Sources */,
+				BF3807EE21FA6CBD00615367 /* MainViewController.swift in Sources */,
+				BF38080021FA707700615367 /* DetailView.swift in Sources */,
+				BF38080221FA708700615367 /* DetailViewController.swift in Sources */,
+				BF3807FE21FA706D00615367 /* MainView.swift in Sources */,
 				BF3807EC21FA6CBD00615367 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
